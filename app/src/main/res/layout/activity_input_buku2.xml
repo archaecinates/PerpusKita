@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inputBuku">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="146dp"
+        android:background="@drawable/star"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="-18dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/nav"
+        android:elevation="4dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="-48dp"
+            android:contentDescription="Logo"
+            android:src="@drawable/smk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="24dp"
+            android:text="Peminjaman Buku PerpusKita"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.440">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Input Buku"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="48dp"
+            android:text="Buku"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:background="#dff2f7"
+            android:hint="Jhon Doe"
+            android:paddingHorizontal="25dp" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="16dp"
+            android:text="Judul buku"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:background="#dff2f7"
+            android:hint="Jhon Doe"
+            android:paddingHorizontal="25dp" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="16dp"
+            android:text="Penulis"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:background="#dff2f7"
+            android:hint="1234"
+            android:paddingHorizontal="25dp" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="16dp"
+            android:text="Pinjam"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:background="#dff2f7"
+            android:hint="Jhon Doe"
+            android:paddingHorizontal="25dp" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="16dp"
+            android:text="Kembali"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:background="#dff2f7"
+            android:hint="Jhon Doe"
+            android:paddingHorizontal="25dp" />
+
+        <Button
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Submit"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
